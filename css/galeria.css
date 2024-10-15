@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 0px;
+    line-height: 1.6;
+}
+
+header {
+    height: 100px;
+    position: relative;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.link-paginas{
+    padding: 0;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: rgba(126, 125, 125, 0.534);
+}
+
+.titulo-principal {
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 25px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 15px;
+}

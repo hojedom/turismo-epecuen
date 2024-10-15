@@ -1,0 +1,139 @@
+body {
+    font-family: 'Lora', serif;
+    color: #333;
+    background-color: #e0e0e0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header.portada-pablo {
+    background: url(../img/Pablo_Novak.jpg) no-repeat center center/cover;
+    height: 500px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header.portada-pablo .capa-portada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tittle-portada{
+    font-size: 50px;
+    z-index: 1;
+}
+
+.subtittle-portada{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'lora'; 
+    z-index: 1;
+    margin: bottom 0px;
+}
+
+.img-pablo{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+} 
+
+header.portada-pablo p {
+    font-size: 1.5rem;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#historia h2, #vida-actual h2, #citas h2, #multimedia h2 {
+    font-size: 32px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+#historia p, #vida-actual p, #multimedia p {
+    font-size: 20px;
+    color: #555;
+}
+
+.citas-personalizada {
+    font-style: italic;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: #d1d0d0;
+    margin: 20px 0;
+    color: #252525;
+}
+
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-container img {
+    width: 75%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container .pie-de-foto {
+    margin-top:1px;
+    font-size: 20px;
+    color: #000000;
+}
+
+#multimedia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#multimedia li {
+    margin: 10px 0;
+}
+
+#multimedia a {
+    font-size: 16px;
+    color: #3092fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#multimedia a:hover {
+    color: #0056b3;
+}
+
+footer {
+    background-color: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+}
+
+.link-inicio{
+    text-decoration: none;
+    background-color: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 15px;
+}

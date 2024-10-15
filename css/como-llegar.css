@@ -1,0 +1,130 @@
+body{
+font-family: 'Lora', serif;
+background-color: #e0e0e0;
+color: #333;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+width: 100%;
+}
+
+header {
+height: 100px;
+position: relative;
+color: white;
+background-color: #333;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+.link-paginas {
+padding: 0;
+position: relative;
+}
+
+nav ul li {
+display: inline-block;
+margin: 0 15px;
+}
+
+nav ul li a {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+padding: 8px 15px;
+}
+
+nav ul li a:hover {
+border-radius: 20px;
+color: #ffffff;
+background-color: rgba(126, 125, 125, 0.534);
+}
+
+.titulo-principal {
+font-size: 40px;
+margin: 0;
+letter-spacing: 1px;
+}
+
+.subtittle-mapa {
+font-size: 27px;
+text-align: left;
+}
+
+#map {
+height: 700px;
+width: 100%;
+}
+
+#mapa-interactivo {
+padding: 30px;
+background-color: #fafafa;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+font-size: 21px;
+color: #333;
+}
+
+.img-streew-view{
+width: 50px;
+height: auto;
+background-color: transparent;
+}
+
+#container-rutas {
+max-width: 800px;
+padding: 30px;
+}
+
+.tittle{
+font-family: 'Lora', serif;
+background-color: #e0e0e0;
+font-size: 26px;
+color: #333;
+}
+
+.text-style{
+font-family: 'Times New Roman', Times, serif;
+font-size: 21px;
+color: #333;
+text-align: left;
+}
+
+.style-transporte {
+font-family: 'Times New Roman', Times, serif;
+font-size: 24px;
+font-weight: bold;
+text-align: left;
+color: #333;
+}
+
+.style-salidas {
+font-family: 'Times New Roman', Times, serif;
+font-size: 21px;
+color: #333;
+text-align: left;
+}
+
+
+#container-transporte{
+max-width: 100%;
+padding: 30px;
+}
+
+footer {
+background-color: #444444;
+color: #ffffff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+font-size: 1em;
+display: inline-block;
+margin: 0 15px;
+}

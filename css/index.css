@@ -1,0 +1,136 @@
+body {
+    font-family: 'Lora', serif;
+    color: #333;
+    background-color: #e0e0e0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(../img/portada_2p.jpg) no-repeat bottom center/cover;
+    height: 500px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin:0;
+}
+
+.link-paginas{
+    padding: 0;
+    position: relative;
+    top: 55px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: rgba(126, 125, 125, 0.534);
+}
+
+.titulo-principal{
+    font-size: 50px;
+    padding-top: 150px;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
+}
+
+#texto-epecuen{
+    padding: 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.tittle{
+    font-size: 40px;
+    color: #555;
+    margin: 0 100px 60px;
+}
+
+.texto{
+    font-family: Times, serif;
+    font-size: 21px;
+    color: #2b2a2a;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+#fotos {
+    padding: 30px ;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.link-gallery {
+    font-size: 40px;
+    margin: 0 100px 60px;
+    font-weight: bold;
+    color: #777;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.gallery {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 32%;
+    border-radius: 10px;
+}
+
+.gallery img:hover {
+    filter: grayscale(40%);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    color: #313131;
+    transition: color 0.3s ease;
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 15px;
+}
+

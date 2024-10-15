@@ -1,0 +1,113 @@
+body {
+font-family: 'Lora', serif;
+background-color: #e0e0e0;
+color: #333;
+margin: 0;
+padding: 0px;
+line-height: 1.6;
+}
+
+header {
+height: 100px;
+position: relative;
+color: white;
+background-color: #333;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+.link-paginas {
+padding: 0;
+position: relative;
+}
+
+nav ul li {
+display: inline-block;
+margin: 0 15px;
+}
+
+nav ul li a {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+padding: 8px 15px;
+}
+
+nav ul li a:hover {
+border-radius: 20px;
+color: #ffffff;
+background-color: rgba(126, 125, 125, 0.534);
+}
+
+.titulo-principal {
+font-size: 40px;
+margin: 0;
+letter-spacing: 1px;
+}
+
+.link-turisticos{
+text-decoration: none;
+}
+
+.atractivos-turisticos {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 50px 20px;
+background-color: #f4f4f4;
+}
+
+.atractivo {
+background-color: white;
+max-width: 300px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin: 20px;
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.atractivo:hover {
+transform: scale(1.05);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.atractivo img {
+width: 100%;
+height: 200px;
+object-fit:cover;
+}
+
+.atractivo h2 {
+font-size: 25px;
+padding: 5px;
+margin: 10px 0;
+color: #333;
+}
+
+.description-turismo{
+font-family: 'Lora', serif;
+font-size: 17px;
+padding: 10px 15px;
+color: #555;
+line-height: 1.5;
+}
+
+footer {
+background-color: #444444;
+color: #ffffff;
+text-align: center;
+padding: 20px;
+}
+
+footer p {
+margin: 0;
+font-size: 1em;
+display: inline-block;
+margin: 0 15px;
+}
